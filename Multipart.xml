@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mk">
+    <parameter name="king" value="not here"></parameter>
+    <test name="mk">
+        <parameter name="king" value="kl"></parameter>
+        <parameter name="queen" value="TestHere"></parameter>
+        <classes>
+            <class name="TestNG_Basic.MultipleParameters"></class>
+        </classes>
+    </test>
+</suite>

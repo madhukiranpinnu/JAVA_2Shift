@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LOL">
+    <test name="kl">
+        <groups>
+            <dependencies>
+                <group name="one" depends-on="two"></group>
+                <group name="two" depends-on="three"></group>
+            </dependencies>
+        </groups>
+        <classes>
+            <class name="TestNG_Basic.Dependencies.GrPOneonOne"></class>
+        </classes>
+    </test>
+</suite>
