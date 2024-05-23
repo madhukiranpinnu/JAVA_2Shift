@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class PR5Actionclass {
